@@ -1,7 +1,7 @@
 # Data-Analyst-Internship
 To ensure data integrity, **I did not modify the original Excel file** (it's an industry best practice to keep the raw data untouched).
 
-Instead, the Python script ran and generated a **new cleaned file** (cleaned_superstore_sales.csv). Here is a short summary of the changes made from the raw data to the new CSV file:
+Instead, the Python script ran and generated a **new cleaned file** ('cleaned_superstore_sales.csv'). Here is a short summary of the changes made from the raw data to the new CSV file:
 
 1. **Removed Useless Columns:** Dropped the `ind1` and `ind2` columns because they were 100% empty (null).
 2. **Standardized Column Names:** Converted all column names to lowercase and replaced spaces with underscores (e.g., `Order Date` -> `order_date`). Also, fixed a malformed column name `Row ID+O6G3A1:R6` by renaming it to simply `row_id`.
